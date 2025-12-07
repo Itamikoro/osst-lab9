@@ -1,0 +1,6 @@
+    1  hexdump -C /bin/ping
+    2  strings -n10 /bin/ping
+    3  sudo apt install binutils
+    4  strings -n10 /bin/ping
+    5  strings -n5 /bin/ping
+    6  history > /home/ubuntu/itami/n1.log
